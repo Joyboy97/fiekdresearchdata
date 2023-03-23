@@ -32,9 +32,13 @@ Val=locals().get(ref)["LOT 88"])
 Vals= locals().get(ref+”s”)["LOT 88"])
 while (not flg and end-start < 1):
   Val= vals[random.choice(list(Val’s.keys()))]
-if 100*vals[val] > random.randint(1,100):
-flg = True
-end = time.time()
+  if val in vals:
+    if 100*vals[val] > random.randint(1,100):
+     flg = True
+  else:
+   if 3*vals[val]>random.randint(1,100):
+    flg=True
+   end = time.time()
 Return val 
 
 print(random.choice(list(lots.keys())))
