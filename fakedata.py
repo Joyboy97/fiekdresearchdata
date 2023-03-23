@@ -22,6 +22,21 @@ nice_scale = [.05, .1, .2, .5, .15]
 car_colors = {"blue": .2, "white": .5, "red": .1, "black": .1, }  # other =.1
 directions = {"front": .7, "back": .3}
 
+Def biasVal(ref string):
+
+flg = False
+start = time.time()
+end = time.time()
+
+Val=locals().get(ref)["LOT 88"])
+Vals= locals().get(ref+”s”)["LOT 88"])
+while (not flg and end-start < 1):
+  Val= vals[random.choice(list(Val’s.keys()))]
+if 100*vals[val] > random.randint(1,100):
+flg = True
+end = time.time()
+Return val 
+
 print(random.choice(list(lots.keys())))
 # with open('parkingdata.csv', 'w', newline='') as file:
 #     writer = csv.writer(file)
