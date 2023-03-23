@@ -22,8 +22,7 @@ nice_scale = [.05, .1, .2, .5, .15]
 car_colors = {"blue": .2, "white": .5, "red": .1, "black": .1, }  # other =.1
 directions = {"front": .7, "back": .3}
 
-
-print(random.choice(lots.keys()))
+print(random.choice(list(lots.keys())))
 # with open('parkingdata.csv', 'w', newline='') as file:
 #     writer = csv.writer(file)
 #     writer.writerow(["Lot", "Offcenter", "Car_Color", "License_State",
