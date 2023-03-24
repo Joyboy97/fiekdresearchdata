@@ -38,7 +38,7 @@ while (not flg and end-start < 1):
   else:
    if 3*vals[val]>random.randint(1,100):
     flg=True
-   end = time.time()
+   end = time.time() 
 Return val 
 
 print(random.choice(list(lots.keys())))
